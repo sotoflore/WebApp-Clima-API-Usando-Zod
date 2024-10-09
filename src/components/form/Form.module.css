@@ -1,0 +1,47 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color:#1a1e29;
+    border-radius: 1.5rem;
+    /*border: .005rem solid #525765;*/
+    height: 100%;
+    padding: 1.5rem 3rem;
+}
+.label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.field,
+.selectCountry{
+    width: 100%;
+}
+
+.selectCountry {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.form input[type='text']{
+    padding: 1rem;
+    background-color: #ddd;
+    border: .3rem solid var(--white);
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submit{
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem 0;
+    border-radius: .5rem;
+}
